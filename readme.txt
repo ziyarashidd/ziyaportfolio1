@@ -1,0 +1,1 @@
+© copyright Ziya Rashid design by Web Developer coder

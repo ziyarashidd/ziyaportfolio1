@@ -1,0 +1,1295 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<!-- meta data -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!--font-family-->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
+		rel="stylesheet">
+
+	<!-- title of site -->
+	<title>Ziya</title>
+
+	<!-- For favicon png -->
+	<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png" />
+
+	<!--font-awesome.min.css-->
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!--flat icon css-->
+	<link rel="stylesheet" href="assets/css/flaticon.css">
+
+	<!--animate.css-->
+	<link rel="stylesheet" href="assets/css/animate.css">
+
+	<!--owl.carousel.css-->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+	<!--bootstrap.min.css-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<!-- bootsnav -->
+	<link rel="stylesheet" href="assets/css/bootsnav.css">
+
+	<!--style.css-->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!--responsive.css-->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+	<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body>
+
+	<!-- Spinner Start -->
+	<!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+		<div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+			<span class="sr-only">Loading...</span>
+		</div>
+	</div> -->
+	<!-- Spinner End -->
+
+	<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+	<!-- top-area Start -->
+	<header class="top-area">
+		<div class="header-area">
+			<!-- Start Navigation -->
+			<nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+
+				<div class="container">
+
+					<!-- Start Header Navigation -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+							<i class="fa fa-bars"></i>
+						</button>
+						<a class="navbar-brand" href="index.html">ZIYA RASHID</a>
+					</div>
+					<!--/.navbar-header-->
+					<!-- End Header Navigation -->
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+						<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+							<li class=" smooth-menu active"></li>
+							<li class=" smooth-menu"><a href="#education">education</a></li>
+							<li class="smooth-menu"><a href="#skills">skills</a></li>
+							<li class="smooth-menu"><a href="#experience">experience</a></li>
+							<li class="smooth-menu"><a href="#profiles">profile</a></li>
+							<li class="smooth-menu"><a href="#project">project</a></li>
+							<li class="smooth-menu"><a href="#certificate">certificate</a></li>
+							<li class="smooth-menu"><a href="#contact">contact</a></li>
+						</ul>
+						<!--/.nav -->
+					</div><!-- /.navbar-collapse -->
+				</div>
+				<!--/.container-->
+			</nav>
+			<!--/nav-->
+			<!-- End Navigation -->
+		</div>
+		<!--/.header-area-->
+
+		<div class="clearfix"></div>
+
+	</header><!-- /.top-area-->
+	<!-- top-area End -->
+
+	<!--welcome-hero start -->
+	<section id="welcome-hero" class="welcome-hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="header-text">
+						<!-- <h2>hi <span>,</span> i am <br> Ziya Rashid <br> coder <span>.</span> </h2> -->
+						<h2>hi <span>,</span> i am <br> Ziya Rashid <span><!--.--></span> </h2>
+						<!-- <p>web developer</p> -->
+						<p><span id="typing-animation" style="
+							position: relative;
+							font-size: 30px;
+							font-weight: bold;
+							color: rgb(255, 255, 255);
+							overflow: hidden;
+							white-space: nowrap;
+							animation: typing 5s steps(20, end) infinite;"></span></p>
+
+						<script>
+							// Initialize the typing animation
+							const typingAnimationElement = document.getElementById('typing-animation');
+
+							// Create an array of typing text
+							const typingTexts = ['frontend Developer', 'java Developer', 'python Developer', 'DSA Developer', 'Video Editor'];
+
+							// Create a function to display the typing animation for a given text
+							function playTypingAnimation(text) {
+								// Loop through each character and add it to the element
+								for (let i = 0; i < text.length; i++) {
+									setTimeout(() => {
+										typingAnimationElement.textContent += text[i];
+									}, i * 100); // Decreased delay to speed up the typing animation
+								}
+
+								// Once the animation is complete, reset the text and start over
+								setTimeout(() => {
+									typingAnimationElement.textContent = '';
+									playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+								}, text.length * 110); // Adjusted delay accordingly
+							}
+
+							// Start the typing animation loop
+							playTypingAnimation(typingTexts[0]);
+						</script>
+						<a href="assets/download/ziya4.pdf" target="_blank">View Resume</a>
+					</div>
+					<!--/.header-text-->
+				</div>
+				<!--/.col-->
+			</div><!-- /.row-->
+		</div><!-- /.container-->
+
+	</section>
+	<!--/.welcome-hero-->
+	<!--welcome-hero end -->
+
+	<!--about start -->
+	<section id="about" class="about">
+		<div class="section-heading text-center">
+			<h2>about me</h2>
+		</div>
+		<div class="container">
+			<div class="about-content">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="single-about-txt">
+							<h3>
+								I am a professional web developer with a passion for crafting exceptional digital
+								experiences. With 1 years of experience in the field, I have honed my skills in
+								designing, developing, and deploying robust and scalable web applications.
+							</h3>
+							<p>
+								During my academic journey, I had the opportunity to explore various aspects of web
+								development, including HTML, CSS, JavaScript, and frameworks like React and Angular. I
+								have also worked on several projects, including Food delevery website,school website,
+								E-commerce website,etc. which showcased my ability to design and develop responsive and
+								user-friendly websites.
+
+								I am passionate about staying updated with the latest trends and technologies in web
+								development, and I am always looking for opportunities to learn and grow. I am confident
+								that my strong foundation in programming principles, problem-solving skills, and
+								creativity will enable me to make a meaningful impact in this field.
+
+							</p>
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="single-about-add-info">
+										<h3>telegram</h3>
+										<a href="https://t.me/codewith_ziya">Join Us</a>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="single-about-add-info">
+										<h3>email</h3>
+										<a href="mailto:ziyarashid204@gmail.com">Contact me</a>
+
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="single-about-add-info">
+										<h3>website</h3>
+										<a href="https://youtube-note.vercel.app/">Visit</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-offset-1 col-sm-5">
+						<div class="single-about-img">
+							<img src="assets/images/about/profile-ziya.jpg" alt="profile_image">
+							<div class="about-list-icon">
+								<ul>
+									<li>
+										<a href="https://github.com/ziyarashidd">
+											<i class="fa fa-github" aria-hidden="true"></i>
+										</a>
+									</li><!-- / li -->
+									<li>
+										<a
+											href="https://www.linkedin.com/in/ziya-rashid-56023324b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+											<i class="fa fa-linkedin" aria-hidden="true"></i>
+										</a>
+
+									</li><!-- / li -->
+									<li>
+										<a href="https://www.instagram.com/codewith_ziya?igsh=eHR6Zzc1NWxodjE4 ">
+											<i class="fa fa-instagram" aria-hidden="true"></i>
+										</a>
+
+									</li><!-- / li -->
+									<li>
+										<a href="#">
+											<i class="fa fa-facebook" aria-hidden="true"></i>
+										</a>
+									</li><!-- / li -->
+									<li>
+										<a href="https://x.com/ZiyaRashid9230?t=p4fU7ISXzXJCwFHYeA1-uA&s=09&mx=2">
+											<i class="fa fa-twitter" aria-hidden="true"></i>
+										</a>
+									</li><!-- / li -->
+
+
+								</ul><!-- / ul -->
+							</div><!-- /.about-list-icon -->
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/.about-->
+	<!--about end -->
+
+	<!--education start -->
+	<section id="education" class="education">
+		<div class="section-heading text-center">
+			<h2>education</h2>
+		</div>
+		<div class="container">
+			<div class="education-horizontal-timeline">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="single-horizontal-timeline">
+							<div class="experience-time">
+								<h2>2022 - 2026</h2>
+								<h3>bachelor <span>of </span> computer science Engineering</h3>
+							</div>
+							<!--/.experience-time-->
+							<div class="timeline-horizontal-border">
+								<i class="fa fa-circle" aria-hidden="true"></i>
+								<span class="single-timeline-horizontal"></span>
+							</div>
+							<div class="timeline">
+								<div class="timeline-content">
+									<h4 class="title">
+										SR Group of Institution.
+									</h4>
+									<h5>Lucknow , Uttar Pardesh</h5>
+									<p class="description">
+										Pursuing Bachelor's degree at
+										Dr. A. P. J. Abdul Kalam Technical University, Lucknow, Uttar Pradesh
+										(2022–2026).
+										Focused on core subjects like Data Structures, Web Development, and Software
+										Engineering with hands-on project experience.
+									</p>
+								</div>
+								<!--/.timeline-content-->
+							</div>
+							<!--/.timeline-->
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="single-horizontal-timeline">
+							<div class="experience-time">
+								<h2>2020 - 2022</h2>
+								<h3>Intermediate <span>of </span> Science</h3>
+							</div>
+							<!--/.experience-time-->
+							<div class="timeline-horizontal-border">
+								<i class="fa fa-circle" aria-hidden="true"></i>
+								<span class="single-timeline-horizontal"></span>
+							</div>
+							<div class="timeline">
+								<div class="timeline-content">
+									<h4 class="title">
+										+2 Janta Jhiwach Ghat
+									</h4>
+									<h5>Darbhanga , Bihar</h5>
+									<p class="description">
+										Completed from +2 Janta Jhiwach Ghat, Darbhanga, Bihar.
+										Built a strong foundation in Physics, Chemistry, and Mathematics, preparing for
+										technical higher education.
+									</p>
+								</div>
+								<!--/.timeline-content-->
+							</div>
+							<!--/.timeline-->
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="single-horizontal-timeline">
+							<div class="experience-time">
+								<h2>2019 - 2020</h2>
+								<h3>High School<span>of </span> Science</h3>
+							</div>
+							<!--/.experience-time-->
+							<div class="timeline-horizontal-border">
+								<i class="fa fa-circle" aria-hidden="true"></i>
+								<span class="single-timeline-horizontal spacial-horizontal-line
+									"></span>
+							</div>
+							<div class="timeline">
+								<div class="timeline-content">
+									<h4 class="title">
+										Sk high school Paundol
+									</h4>
+									<h5>Sakri , Bihar</h5>
+									<p class="description">
+										Completed from SK High School, Paundol, Sakri, Bihar.
+										Focused on core science subjects with a strong academic performance at the
+										secondary level.
+									</p>
+								</div>
+								<!--/.timeline-content-->
+							</div>
+							<!--/.timeline-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!--/.education-->
+	<!--education end -->
+
+	<!--skills start -->
+	<section id="skills" class="skills">
+		<div class="skill-content">
+			<div class="section-heading text-center">
+				<h2>skills</h2>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="single-skill-content">
+							<div class="barWrapper">
+								<span class="progressText">Html</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="90"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>90%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+							<div class="barWrapper">
+								<span class="progressText">CSS</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="85"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>85%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+							<div class="barWrapper">
+								<span class="progressText">Java-Script</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="97"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>97%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+							<div class="barWrapper">
+								<span class="progressText">React.js</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="90"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>90%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+							<div class="barWrapper">
+								<span class="progressText">Git, GitHub</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="90"
+											aria-valuemin="10" aria-valuemax="100" style="">
+										</div>
+									</div>
+									<h3>90%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="single-skill-content">
+							<div class="barWrapper">
+								<span class="progressText">NodeJS</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="80"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>80%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+							<div class="barWrapper">
+								<span class="progressText">Express JS</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="80"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>80%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+							<div class="barWrapper">
+								<span class="progressText">MySQL</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="85"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>85%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+							<div class="barWrapper">
+								<span class="progressText">MongoDB</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="90"
+											aria-valuemin="10" aria-valuemax="100" style="">
+										</div>
+									</div>
+									<h3>90%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+							<div class="barWrapper">
+								<span class="progressText">DSA (basic)</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="50"
+											aria-valuemin="10" aria-valuemax="100" style="">
+										</div>
+									</div>
+									<h3>50%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+						</div>
+					</div>
+				</div><!-- /.row -->
+			</div> <!-- /.container -->
+		</div><!-- /.skill-content-->
+
+	</section>
+	<!--/.skills-->
+	<!--skills end -->
+
+	<!--experience start -->
+	<section id="experience" class="experience">
+		<div class="section-heading text-center">
+			<h2>experience</h2>
+		</div>
+		<div class="container">
+			<div class="experience-content">
+				<div class="main-timeline">
+					<ul>
+						<li>
+							<div class="single-timeline-box fix">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="experience-time text-right">
+											<h2>2023 - Present</h2>
+											<h3>Frontend Development</h3>
+										</div>
+										<!--/.experience-time-->
+									</div>
+									<!--/.col-->
+									<div class="col-md-offset-1 col-md-5">
+										<div class="timeline">
+											<div class="timeline-content">
+												<h4 class="title">
+													<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+													Code With Harry
+												</h4>
+												<h5>Lucknow</h5>
+												<p class="description">
+													Completed an in-depth Frontend Development program focused on
+													building modern, responsive web interfaces using HTML, CSS, and
+													JavaScript. Gained hands-on experience with key concepts such as DOM
+													manipulation, responsive design, Flexbox, Grid, and browser
+													compatibility. Developed multiple interactive UI components and
+													deployed real-time projects. The course also included version
+													control with Git and introduction to modern frontend workflows.
+												</p>
+											</div>
+											<!--/.timeline-content-->
+										</div>
+										<!--/.timeline-->
+									</div>
+									<!--/.col-->
+								</div>
+							</div>
+							<!--/.single-timeline-box-->
+						</li>
+
+						<li>
+							<div class="single-timeline-box fix">
+								<div class="row">
+									<div class="col-md-offset-1 col-md-5 experience-time-responsive">
+										<div class="experience-time">
+											<h2>
+												<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+												2024-2025
+											</h2>
+											<h3>Web Developer</h3>
+										</div>
+										<!--/.experience-time-->
+									</div>
+									<!--/.col-->
+									<div class="col-md-5">
+										<div class="timeline">
+											<div class="timeline-content text-right">
+												<h4 class="title">
+													Apna Collage
+												</h4>
+												<h5>Lucknow</h5>
+												<p class="description">
+													Completed MERN stack backend training at Apna Collage, Lucknow
+													(2024–2025).
+													Learned Node.js, Express.js, MongoDB, and built RESTful APIs with
+													authentication.
+												</p>
+											</div>
+											<!--/.timeline-content-->
+										</div>
+										<!--/.timeline-->
+									</div>
+									<!--/.col-->
+									<div class="col-md-offset-1 col-md-5 experience-time-main">
+										<div class="experience-time">
+											<h2>
+												<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+												2024 - 2025
+											</h2>
+											<h3>Backend Development</h3>
+										</div>
+										<!--/.experience-time-->
+									</div>
+									<!--/.col-->
+								</div>
+							</div>
+							<!--/.single-timeline-box-->
+						</li>
+
+						<li>
+							<div class="single-timeline-box fix">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="experience-time text-right">
+											<h2>2023 -2024</h2>
+											<h3>Java-Script</h3>
+										</div>
+										<!--/.experience-time-->
+									</div>
+									<!--/.col-->
+									<div class="col-md-offset-1 col-md-5">
+										<div class="timeline">
+											<div class="timeline-content">
+												<h4 class="title">
+													<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+													Code With Harry
+												</h4>
+												<h5>Lucknow</h5>
+												<p class="description">
+													Completed JavaScript training at Code With Harry, Lucknow
+													(2023–2024).
+													Mastered core concepts, DOM manipulation, ES6+, and built dynamic
+													web interactions.
+												</p>
+											</div>
+											<!--/.timeline-content-->
+										</div>
+										<!--/.timeline-->
+									</div>
+									<!--/.col-->
+								</div>
+							</div>
+							<!--/.single-timeline-box-->
+						</li>
+
+						<li>
+							<div class="single-timeline-box fix">
+								<div class="row">
+									<div class="col-md-offset-1 col-md-5 experience-time-responsive">
+										<div class="experience-time">
+											<h2>
+												<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+												2024 - 2025
+											</h2>
+											<h3>Java</h3>
+										</div>
+										<!--/.experience-time-->
+									</div>
+									<!--/.col-->
+									<div class="col-md-5">
+										<div class="timeline">
+											<div class="timeline-content text-right">
+												<h4 class="title">
+													Apna Collage
+												</h4>
+												<h5>Lucknow</h5>
+												<p class="description">
+													Studied core Java and fundamental Data Structures at Apna College,
+													Lucknow (2024–2025).
+													Gained hands-on experience with arrays, linked lists, stacks,
+													queues, and object-oriented programming.
+												</p>
+											</div>
+											<!--/.timeline-content-->
+										</div>
+										<!--/.timeline-->
+									</div>
+									<!--/.col-->
+									<div class="col-md-offset-1 col-md-5 experience-time-main">
+										<div class="experience-time">
+											<h2>
+												<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+												2024 - 2025
+											</h2>
+											<h3>DSA (Basic) & Java</h3>
+										</div>
+										<!--/.experience-time-->
+									</div>
+									<!--/.col-->
+								</div>
+							</div>
+							<!--/.single-timeline-box-->
+						</li>
+
+						<li>
+							<div class="single-timeline-box fix">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="experience-time text-right">
+											<h2>2023 - 2024</h2>
+											<h3>React.js</h3>
+										</div>
+										<!--/.experience-time-->
+									</div>
+									<!--/.col-->
+									<div class="col-md-offset-1 col-md-5">
+										<div class="timeline">
+											<div class="timeline-content">
+												<h4 class="title">
+													<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+													Apna Collage
+												</h4>
+												<h5>Lucknow</h5>
+												<p class="description">
+													Completed React.js training at Apna College, Lucknow (2023–2024),
+													focusing on component-based frontend development.
+													Built dynamic user interfaces using hooks, state management, and
+													integration with REST APIs.
+												</p>
+											</div>
+											<!--/.timeline-content-->
+										</div>
+										<!--/.timeline-->
+									</div>
+									<!--/.col-->
+								</div>
+							</div>
+							<!--/.single-timeline-box-->
+						</li>
+
+					</ul>
+				</div>
+				<!--.main-timeline-->
+			</div>
+			<!--.experience-content-->
+		</div>
+
+	</section>
+	<!--/.experience-->
+	<!--experience end -->
+
+	<!--profiles start -->
+	<section id="profiles" class="profiles">
+		<div class="profiles-details">
+			<div class="section-heading text-center">
+				<h2>profiles</h2>
+			</div>
+			<div class="container">
+				<div class="profiles-content">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a href="https://github.com/ziyarashidd"><i class="flaticon-github-logo"></i></a>
+									<div class="profile-icon-name">github</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://github.com/ziyarashidd"><i
+												class="flaticon-github-logo"></i></a>
+										<div class="profile-icon-name">github</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a
+										href="https://www.linkedin.com/in/ziya-rashid-56023324b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i
+											class="fa fa-linkedin"></i></a>
+									<div class="profile-icon-name">linkedin</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a
+											href="https://www.linkedin.com/in/ziya-rashid-56023324b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i
+												class="fa fa-linkedin"></i></a>
+										<div class="profile-icon-name">linkedin</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a href="https://www.instagram.com/codewith_ziya?igsh=eHR6Zzc1NWxodjE4 "><i
+											class="fa fa-instagram"></i></a>
+									<div class="profile-icon-name">instagram</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://www.instagram.com/codewith_ziya?igsh=eHR6Zzc1NWxodjE4 "><i
+												class="fa fa-instagram"></i></a>
+										<div class="profile-icon-name">instagram</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a href="https://x.com/ZiyaRashid9230?t=p4fU7ISXzXJCwFHYeA1-uA&s=09&mx=2"><i
+											class="fa fa-twitter"></i></a>
+									<div class="profile-icon-name">twitter</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://x.com/ZiyaRashid9230?t=p4fU7ISXzXJCwFHYeA1-uA&s=09&mx=2"><i
+												class="fa fa-twitter"></i></a>
+										<div class="profile-icon-name">twitter</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="profile-border"></div>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a href="https://t.me/codewith_ziya"><i class="fa fa-telegram"></i></a>
+									<div class="profile-icon-name">telegram</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://t.me/codewith_ziya"><i class="fa fa-telegram"></i></a>
+										<div class="profile-icon-name">telegram</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="single-profile profile-no-border">
+								<div class="profile-txt">
+									<a href="https://youtube.com/@codewith_ziya?si=kAGcOysbRH00AP8N"><i
+											class="fa fa-youtube"></i></a>
+									<div class="profile-icon-name">youtube</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://youtube.com/@codewith_ziya?si=kAGcOysbRH00AP8N"><i
+												class="fa fa-youtube"></i></a>
+										<div class="profile-icon-name">youtube</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!--/.profiles-->
+	<!--profiles end -->
+
+
+	<div id="project, certificate" class="tab-container">
+		<input type="radio" name="tab" id="tab1" checked>
+		<input type="radio" name="tab" id="tab2">
+
+		<div class="tab-buttons">
+			<label for="tab1">Project</label>
+			<label for="tab2">Certificate</label>
+		</div>
+
+		<div class="tab-content">
+			<!-- Project Section -->
+			<div class="content" id="content1">
+				<section id="project" class="portfolio">
+					<div class="portfolio-details">
+						<div class="section-heading text-center">
+							<h2>Project</h2>
+						</div>
+						<div class="container">
+							<div class="portfolio-content">
+								<div class="isotope">
+									<div class="row">
+
+										<div class="col-sm-4">
+											<div class="item">
+												<img src="assets/images/portfolio/p10.png" alt="portfolio image" />
+												<div class="isotope-overlay">
+													<a href="https://ziya.freewebhostmost.com/">Spotify Clone</a>
+												</div>
+											</div>
+											<div class="item">
+												<img src="assets/images/portfolio/3d portfolio.jpg"
+													alt="portfolio image" />
+												<div class="isotope-overlay">
+													<a href="https://ziyaportfolio1.vercel.app/">3D-Portfolio</a>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-4">
+											<div class="item">
+												<img src="assets/images/portfolio/p7.jpg" alt="portfolio image" />
+												<div class="isotope-overlay">
+													<a
+														href="https://food-delivery-omega-ebon.vercel.app/">Food-Delivery</a>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-4">
+											<div class="item">
+												<img src="assets/images/portfolio/siman.jpg" alt="portfolio image" />
+												<div class="isotope-overlay">
+													<a href="https://siman-says.vercel.app/">Siman-Says Game</a>
+												</div>
+											</div>
+											<div class="item">
+												<img src="assets/images/portfolio/p12.png" alt="portfolio image" />
+												<div class="isotope-overlay">
+													<a href="#">College website</a>
+												</div>
+											</div>
+										</div>
+
+									</div><!-- /.row -->
+								</div><!-- /.isotope -->
+							</div><!-- /.portfolio-content -->
+						</div><!-- /.container -->
+					</div><!-- /.portfolio-details -->
+				</section>
+			</div>
+
+			<!-- Certificate Section -->
+			<div class="content" id="content2">
+				<section id="certificate" class="certificate">
+					<div class="portfolio-details">
+						<div class="section-heading text-center">
+							<h2>Certificate</h2>
+						</div>
+						<div class="container">
+							<div class="portfolio-content">
+								<div class="isotope">
+									<div class="row">
+
+										<div class="col-sm-4">
+											<div class="item">
+												<a href="assets/images/certificate/IIT certificate.jpg" target="_blank">
+													<img src="assets/images/certificate/IIT certificate.jpg"
+														alt="certificate image" />
+												</a>
+											</div>
+											<div class="item">
+												<a href="assets/images/certificate/data-analytics cirtificate in deloitte.png"
+													target="_blank">
+													<img src="assets/images/certificate/data-analytics cirtificate in deloitte.png"
+														alt="certificate image" />
+												</a>
+											</div>
+											<div class="item">
+												<a href="assets/images/certificate/build with india(H).png"
+													target="_blank">
+													<img src="assets/images/certificate/build with india(H).png"
+														alt="certificate image" />
+												</a>
+											</div>
+										</div>
+
+										<div class="col-sm-4">
+											<div class="item">
+												<a href="assets/images/certificate/edunet internship.jpg"
+													target="_blank">
+													<img src="assets/images/certificate/edunet internship.jpg"
+														alt="certificate image" />
+												</a>
+											</div>
+											<div class="item">
+												<a href="assets/images/certificate/(edunet) offer_letter_page- 1.jpg"
+													target="_blank">
+													<img src="assets/images/certificate/(edunet) offer_letter_page- 1.jpg"
+														alt="certificate image" />
+												</a>
+											</div>
+											<div class="item">
+												<a href="assets/images/certificate/(edunet) offer_letter_page- 2.jpg"
+													target="_blank">
+													<img src="assets/images/certificate/(edunet) offer_letter_page- 2.jpg"
+														alt="certificate image" />
+												</a>
+											</div>
+										</div>
+
+
+										<div class="col-sm-4">
+											<div class="item">
+												<a href="assets/images/certificate/(ZIDIO)Offer Letter_page- 1.jpg"
+													target="_blank">
+													<img src="assets/images/certificate/(ZIDIO)Offer Letter_page- 1.jpg"
+														alt="certificate image" />
+												</a>
+											</div>
+											<div class="item">
+												<a href="assets/images/certificate/(ZIDIO)Offer Letter_page- 2.jpg"
+													target="_blank">
+													<img src="assets/images/certificate/(ZIDIO)Offer Letter_page- 2.jpg"
+														alt="certificate image" />
+												</a>
+											</div>
+											<div class="item">
+												<a href="assets/images/certificate/(ZIDIO)Offer Letter_page- 3.jpg"
+													target="_blank">
+													<img src="assets/images/certificate/(ZIDIO)Offer Letter_page- 3.jpg"
+														alt="certificate image" />
+												</a>
+											</div>
+										</div>
+
+										<div class="col-sm-4">
+											<div class="item">
+												<a href="assets/images/certificate/postman certificate_page-0001.jpg"
+													target="_blank">
+													<img src="assets/images/certificate/postman certificate_page-0001.jpg"
+														alt="certificate image" />
+												</a>
+											</div>
+											<div class="item">
+												<a href="assets/images/certificate/Guvi (make website).jpg"
+													target="_blank">
+													<img src="assets/images/certificate/Guvi (make website).jpg"
+														alt="certificate image" />
+												</a>
+											</div>
+											<div class="item">
+												<a href="assets/images/certificate/Nexus (H).jpeg" target="_blank">
+													<img src="assets/images/certificate/Nexus (H).jpeg"
+														alt="certificate image" />
+												</a>
+											</div>
+										</div>
+
+										<div class="col-sm-4">
+											<div class="item">
+												<a href="assets/images/certificate/C language.jpeg" target="_blank">
+													<img src="assets/images/certificate/C language.jpeg"
+														alt="certificate image" />
+												</a>
+											</div>
+											<div class="item">
+												<a href="assets/images/certificate/HTML CERTIFICATE.png"
+													target="_blank">
+													<img src="assets/images/certificate/HTML CERTIFICATE.png"
+														alt="certificate image" />
+												</a>
+											</div>
+											<div class="item">
+												<a href="assets/images/certificate/CSS CERTIFICATE.png" target="_blank">
+													<img src="assets/images/certificate/CSS CERTIFICATE.png"
+														alt="certificate image" />
+												</a>
+											</div>
+										</div>
+
+										<div class="col-sm-4">
+											<div class="item">
+												<a href="assets/images/certificate/PYTHON certificate.png"
+													target="_blank">
+													<img src="assets/images/certificate/PYTHON certificate.png"
+														alt="certificate image" />
+												</a>
+											</div>
+											<div class="item">
+												<a href="assets/images/certificate/microsoft sql certificate.jpg"
+													target="_blank">
+													<img src="assets/images/certificate/microsoft sql certificate.jpg"
+														alt="certificate image" />
+												</a>
+											</div>
+											<div class="item">
+												<a href="assets/images/certificate/pregrade internship.jpg"
+													target="_blank">
+													<img src="assets/images/certificate/pregrade internship.jpg"
+														alt="certificate image" />
+												</a>
+											</div>
+										</div>
+
+									</div><!-- /.row -->
+								</div><!-- /.isotope -->
+							</div><!-- /.portfolio-content -->
+						</div><!-- /.container -->
+					</div><!-- /.portfolio-details -->
+				</section>
+			</div>
+
+
+			<section id="contact" class="contact">
+				<div class="section-heading text-center">
+					<h2>contact me</h2>
+				</div>
+				<div class="container">
+					<div class="contact-content">
+						<div class="row">
+							<div class="col-md-offset-1 col-md-5 col-sm-6">
+								<div class="single-contact-box">
+									<div class="contact-form">
+										<form action="https://formspree.io/f/meqyjelq" method="POST">
+											<div class="row">
+												<div class="col-sm-6 col-xs-12">
+													<div class="form-group">
+														<input type="text" class="form-control" id="name"
+															placeholder="Name*" name="name">
+													</div>
+													<!--/.form-group-->
+												</div>
+												<!--/.col-->
+												<div class="col-sm-6 col-xs-12">
+													<div class="form-group">
+														<input type="email" class="form-control" id="email"
+															placeholder="Email*" name="email">
+													</div>
+													<!--/.form-group-->
+												</div>
+												<!--/.col-->
+											</div>
+											<!--/.row-->
+											<div class="row">
+												<div class="col-sm-12">
+													<div class="form-group">
+														<input type="text" class="form-control" id="subject"
+															placeholder="Subject" name="subject">
+													</div>
+													<!--/.form-group-->
+												</div>
+												<!--/.col-->
+											</div>
+											<!--/.row-->
+											<div class="row">
+												<div class="col-sm-12">
+													<div class="form-group">
+														<textarea class="form-control" rows="8" id="comment"
+															placeholder="Message"></textarea>
+													</div>
+													<!--/.form-group-->
+												</div>
+												<!--/.col-->
+											</div>
+											<!--/.row-->
+											<div class="row">
+												<div class="col-sm-12">
+													<div class="single-contact-btn">
+														<!-- <a class="contact-btn" href="#" role="button">submit</a> -->
+														<button type="submit">Submit</button>
+													</div>
+													<!--/.single-single-contact-btn-->
+												</div>
+												<!--/.col-->
+											</div>
+											<!--/.row-->
+										</form>
+										<!--/form-->
+									</div>
+									<!--/.contact-form-->
+								</div>
+								<!--/.single-contact-box-->
+							</div>
+							<!--/.col-->
+							<div class="col-md-offset-1 col-md-5 col-sm-6">
+								<div class="single-contact-box">
+									<div class="contact-adress">
+										<div class="contact-add-head">
+											<h3>Ziya Rashid</h3>
+											<p>Web Developer</p>
+										</div>
+										<div class="contact-add-info">
+											<div class="single-contact-add-info">
+												<h3>telegram</h3>
+												<a href="https://t.me/codewith_ziya">Join Us</a>
+											</div>
+											<div class="single-contact-add-info">
+												<h3>email</h3>
+												<a href="mailto:ziyarashid204@gmail.com">Contact me</a>
+
+											</div>
+											<div class="single-contact-add-info">
+												<h3>website</h3>
+												<a href="https://youtube-note.vercel.app/">Visit</a>
+											</div>
+										</div>
+									</div>
+									<!--/.contact-adress-->
+									<div class="hm-foot-icon">
+										<ul>
+											<li><a
+													href="https://www.linkedin.com/in/ziya-rashid-56023324b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i
+														class="fa fa-linkedin"></i></a></li>
+											<!--/li-->
+											<li><a href="https://github.com/ziyarashidd"><i
+														class="fa fa-github"></i></a></li>
+											<!--/li-->
+											<li><a
+													href="https://www.instagram.com/codewith_ziya?igsh=eHR6Zzc1NWxodjE4 "><i
+														class="fa fa-instagram"></i></a></li>
+											<!--/li-->
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<!--/li-->
+											<li><a
+													href="https://x.com/ZiyaRashid9230?t=p4fU7ISXzXJCwFHYeA1-uA&s=09&mx=2"><i
+														class="fa fa-twitter"></i></a></li>
+											<!--/li-->
+										</ul>
+										<!--/ul-->
+									</div>
+									<!--/.hm-foot-icon-->
+								</div>
+								<!--/.single-contact-box-->
+							</div>
+							<!--/.col-->
+						</div>
+						<!--/.row-->
+					</div>
+					<!--/.contact-content-->
+				</div>
+				<!--/.container-->
+
+			</section>
+			<!--/.contact-->
+			<!--contact end -->
+
+			<!--footer-copyright start-->
+			<footer id="footer-copyright" class="footer-copyright">
+				<div class="container">
+					<div class="hm-footer-copyright text-center">
+						<p>
+							&copy; copyright Ziya Rashid design by Web Developer <a
+								href="#">coder</a>
+						</p>
+						<!--/p-->
+					</div>
+					<!--/.text-center-->
+				</div>
+				<!--/.container-->
+
+				<div id="scroll-Top">
+					<div class="return-to-top">
+						<i class="fa fa-angle-up " id="scroll-top"></i>
+					</div>
+
+				</div>
+				<!--/.scroll-Top-->
+
+			</footer>
+			<!--/.footer-copyright-->
+			<!--footer-copyright end-->
+
+			<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+			<script src="assets/js/jquery.js"></script>
+
+			<!--modernizr.min.js-->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+			<!--bootstrap.min.js-->
+			<script src="assets/js/bootstrap.min.js"></script>
+
+			<!-- bootsnav js -->
+			<script src="assets/js/bootsnav.js"></script>
+
+			<!-- jquery.sticky.js -->
+			<script src="assets/js/jquery.sticky.js"></script>
+
+			<!-- for progress bar start-->
+
+			<!-- progressbar js -->
+			<script src="assets/js/progressbar.js"></script>
+
+			<!-- appear js -->
+			<script src="assets/js/jquery.appear.js"></script>
+
+			<!-- for progress bar end -->
+
+			<!--owl.carousel.js-->
+			<script src="
+	
+	
+	/js/owl.carousel.min.js"></script>
+
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+
+			<!--Custom JS-->
+			<script src="assets/js/custom.js"></script>
+			<script src="script.js"></script>
+
+</body>
+
+</html>
